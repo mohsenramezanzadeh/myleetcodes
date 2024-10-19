@@ -1,6 +1,5 @@
 package com.mohsen.solutions;
 
-import com.mohsen.add_binary.Solution;
 import org.junit.Before;
 import org.junit.Test;
 
