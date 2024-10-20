@@ -1,4 +1,4 @@
-package com.mohsen.pascal_triangle;
+package com.mohsen.solutions;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -8,18 +8,18 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class SolutionTest {
-    private Solution solution;
+public class PascalTriangleTest {
+    private PascalTriangle pascalTriangle;
 
     @Before
     public void init() {
-        solution = new Solution();
+        pascalTriangle = new PascalTriangle();
     }
 
     @Test
     public void firstSampleTest() {
         final int numRow = 5;
-        List<List<Integer>> actual = solution.generate(numRow);
+        List<List<Integer>> actual = pascalTriangle.generate(numRow);
 
         assertNotNull(actual);
         assertEquals(numRow, actual.size());
@@ -37,7 +37,7 @@ public class SolutionTest {
     @Test
     public void secondSampleTest() {
         final int numRow = 1;
-        List<List<Integer>> actual = solution.generate(numRow);
+        List<List<Integer>> actual = pascalTriangle.generate(numRow);
 
         assertNotNull(actual);
         assertEquals(numRow, actual.size());
@@ -51,7 +51,7 @@ public class SolutionTest {
     @Test
     public void thirdSampleTest() {
         final int numRow = 2;
-        List<List<Integer>> actual = solution.generate(numRow);
+        List<List<Integer>> actual = pascalTriangle.generate(numRow);
 
         assertNotNull(actual);
         assertEquals(numRow, actual.size());

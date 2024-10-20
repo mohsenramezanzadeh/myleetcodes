@@ -1,6 +1,5 @@
 package com.mohsen.solutions;
 
-import com.mohsen.maximumsubarray.MaximumSubarray;
 import org.junit.Before;
 import org.junit.Test;
 

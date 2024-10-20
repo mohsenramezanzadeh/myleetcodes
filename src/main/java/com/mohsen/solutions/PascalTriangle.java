@@ -1,9 +1,9 @@
-package com.mohsen.pascal_triangle;
+package com.mohsen.solutions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
 

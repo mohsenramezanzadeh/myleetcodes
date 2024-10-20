@@ -1,25 +1,24 @@
-package com.mohsen.twosum;
+package com.mohsen.solutions;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SolutionTest {
+public class TwoSumTest {
 
-    private Solution solution;
+    private TwoSum twoSum;
 
     @Before
     public void init() {
-        solution = new Solution();
+        twoSum = new TwoSum();
     }
 
     @Test
     public void firstSampleTest() {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
-        int[] result = solution.twoSum(numbers, target);
+        int[] result = twoSum.twoSum(numbers, target);
 
         assertNotNull(result);
         assertEquals(2, result.length);
@@ -30,7 +29,7 @@ public class SolutionTest {
     public void secondSampleTest() {
         int[] numbers = {3, 2, 4};
         int target = 6;
-        int[] result = solution.twoSum(numbers, target);
+        int[] result = twoSum.twoSum(numbers, target);
 
         assertNotNull(result);
         assertEquals(2, result.length);
@@ -41,7 +40,7 @@ public class SolutionTest {
     public void thirdSampleTest() {
         int[] numbers = {3, 3};
         int target = 6;
-        int[] result = solution.twoSum(numbers, target);
+        int[] result = twoSum.twoSum(numbers, target);
 
         assertNotNull(result);
         assertEquals(2, result.length);

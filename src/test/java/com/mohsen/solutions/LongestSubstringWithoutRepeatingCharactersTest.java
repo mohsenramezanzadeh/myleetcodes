@@ -1,16 +1,16 @@
-package com.mohsen.Longest_Substring_Without_Repeating_Characters;
+package com.mohsen.solutions;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
-    private Solution solution;
+public class LongestSubstringWithoutRepeatingCharactersTest {
+    private LongestSubstringWithoutRepeatingCharacters solution;
 
     @Before
     public void init() {
-        solution = new Solution();
+        solution = new LongestSubstringWithoutRepeatingCharacters();
     }
 
     @Test
