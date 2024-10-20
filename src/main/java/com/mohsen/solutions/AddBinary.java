@@ -1,6 +1,6 @@
-package com.mohsen.add_binary;
+package com.mohsen.solutions;
 
-public class Solution {
+public class AddBinary {
     public String addBinary(String a, String b) {
         StringBuilder asb = new StringBuilder(a);
         StringBuilder bsb = new StringBuilder(b);

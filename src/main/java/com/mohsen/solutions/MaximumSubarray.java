@@ -1,4 +1,4 @@
-package com.mohsen.maximumsubarray;
+package com.mohsen.solutions;
 
 public class MaximumSubarray {
     public int maxSubArray(int[] numbers) {

@@ -1,6 +1,6 @@
-package com.mohsen.Longest_Substring_Without_Repeating_Characters;
+package com.mohsen.solutions;
 
-public class Solution {
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if (s.isEmpty()) {
             return 0;
@@ -11,7 +11,7 @@ public class Solution {
         if (s.length() == 1) {
             return 1;
         }
-        StringBuilder sub = new StringBuilder("");
+        StringBuilder sub = new StringBuilder();
         int longestSubLength = 0;
         int lastSubLength = 0;
         for (int i = 0; i < s.length(); i++) {

@@ -1,6 +1,6 @@
-package com.mohsen.palindromenumber;
+package com.mohsen.solutions;
 
-public class Solution {
+public class PalindromeNumber {
 
     public boolean isPalindrome(int x) {
         int reversed = 0;
@@ -9,10 +9,7 @@ public class Solution {
             reversed = reversed * 10 + x % 10;
             x = x / 10;
         }
-        if (num == reversed) {
-            return true;
-        }
-        return false;
+        return num == reversed;
     }
 
     public boolean isPalindrome1(int x) {
